@@ -2,6 +2,8 @@
 
 using namespace std;
 
+extern const int a, b, c, d;
+
 int main()
 {
 	setlocale(LC_ALL, "RU");
@@ -34,6 +36,13 @@ int main()
 		}
 	};
 	int* ptrBox = &box[1][1][1];
-	cout << "В цетре куба лежит: " << *ptrBox << endl;
+	cout << "В цетре куба лежит: " << *ptrBox << endl << endl;
 	//----3----->>
+
+	//----4-----<<
+	float res;
+	res = a * (b + (static_cast<float>(c) / d));
+	cout << "a = " << a << " b = " << b << " c = " << c << " d = " << d << endl;
+	cout << "Результат выражения a * (b + (c / d)) = " << res << endl;
+	//----4----->>
 }
