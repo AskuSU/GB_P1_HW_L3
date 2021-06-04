@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -8,9 +8,9 @@ int main()
 
 	//----2-----<<
 	int A;
-	cout << "Ââåäèòå öåëîå ÷èñëî A = ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ A = ";
 	cin >> A;
 	A = (A <= 21) ? 21 - A : (A - 21) * 2;
-	cout << "Èñêîìîå ÷èñëî = " << A << endl;
+	cout << "Ð˜ÑÐºÐ¾Ð¼Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ = " << A << endl;
 	//----2----->>
 }
